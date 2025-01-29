@@ -1,10 +1,10 @@
-##AI-Powered Resume Screening System
+**AI-Powered Resume Screening System**
 
-📌 Project Overview
+📌 **Project Overview**
 
 This project automates the resume screening process using Natural Language Processing (NLP) and Machine Learning (ML). The system extracts key information from resumes, ranks candidates based on job descriptions, and provides an AI-driven approach to hiring efficiency.
 
-🚀 Features
+🚀 **Features**
 
 Resume Parsing: Extracts structured information from PDF and DOCX resumes.
 
@@ -18,8 +18,8 @@ Streamlit Dashboard: User-friendly interface for resume uploads and ranking.
 
 Deployment: Containerized with Docker and hosted on AWS/GCP.
 
-📂 Project Structure
-
+📂 **Project Structure
+**
 resume-screening/
 │── data/                  # Sample resumes and job descriptions
 │── models/                # Trained machine learning models
@@ -33,7 +33,7 @@ resume-screening/
 │── requirements.txt       # Dependencies
 │── README.md              # Project documentation
 
-📊 Technologies Used
+📊** Technologies Used**
 
 Programming Language: Python
 
@@ -47,7 +47,7 @@ Front-end: Streamlit
 
 Deployment: Docker, AWS/GCP
 
-🛠️ Installation & Setup
+🛠️** Installation & Setup**
 
 Prerequisites
 
@@ -130,5 +130,3 @@ Pull requests are welcome! Please open an issue first to discuss major changes.
 📜 License
 
 This project is licensed under the MIT License.
-
-🚀 AI-Powered Resume Screening: Enhancing Hiring Efficiency with AI!
