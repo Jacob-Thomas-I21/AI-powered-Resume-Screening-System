@@ -21,6 +21,7 @@ Deployment: Containerized with Docker and hosted on AWS/GCP.
 ## 📂 Project Structure
 
 resume-screening/ 
+
 ├── data/               # Sample resumes and job descriptions 
 
 ├── models/             # Trained machine learning models 
