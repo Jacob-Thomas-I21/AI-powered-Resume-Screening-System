@@ -20,12 +20,18 @@ Deployment: Containerized with Docker and hosted on AWS/GCP.
 
 ## 📂 Project Structure
 
-resume-screening/ ├── data/ # Sample resumes and job descriptions ├── models/ # Trained machine learning models ├── notebooks/ # Jupyter notebooks for experimentation ├── src/ # Source code │ ├── preprocessing.py # Text preprocessing scripts │ ├── model.py # ML model training and inference │ ├── api.py # FastAPI/Flask API │ ├── dashboard.py # Streamlit front-end ├── Dockerfile # Docker containerization ├── requirements.txt # Dependencies ├── README.md # Project documentation
-
-Copy
-Edit
-
-
+resume-screening/ 
+├── data/               # Sample resumes and job descriptions 
+├── models/             # Trained machine learning models 
+├── notebooks/          # Jupyter notebooks for experimentation 
+├── src/                # Source code 
+│ ├── preprocessing.py  # Text preprocessing scripts 
+│ ├── model.py          # ML model training and inference 
+│ ├── api.py            # FastAPI/Flask API 
+│ ├── dashboard.py      # Streamlit front-end 
+├── Dockerfile          # Docker containerization
+├── requirements.txt    # Dependencies 
+├── README.md           # Project documentation
 
 📊**Technologies Used**
 
