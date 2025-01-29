@@ -18,7 +18,8 @@ Streamlit Dashboard: User-friendly interface for resume uploads and ranking.
 
 Deployment: Containerized with Docker and hosted on AWS/GCP.
 
-📂 **Project Structure**
+## 📂 Project Structure
+
 resume-screening/
 │── data/                  # Sample resumes and job descriptions
 │── models/                # Trained machine learning models
@@ -31,6 +32,7 @@ resume-screening/
 │── Dockerfile             # Docker containerization
 │── requirements.txt       # Dependencies
 │── README.md              # Project documentation
+
 
 📊**Technologies Used**
 
