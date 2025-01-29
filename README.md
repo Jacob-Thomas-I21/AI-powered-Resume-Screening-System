@@ -18,8 +18,7 @@ Streamlit Dashboard: User-friendly interface for resume uploads and ranking.
 
 Deployment: Containerized with Docker and hosted on AWS/GCP.
 
-📂 **Project Structure
-**
+📂 **Project Structure**
 resume-screening/
 │── data/                  # Sample resumes and job descriptions
 │── models/                # Trained machine learning models
@@ -33,7 +32,7 @@ resume-screening/
 │── requirements.txt       # Dependencies
 │── README.md              # Project documentation
 
-📊** Technologies Used**
+📊**Technologies Used**
 
 Programming Language: Python
 
@@ -47,7 +46,7 @@ Front-end: Streamlit
 
 Deployment: Docker, AWS/GCP
 
-🛠️** Installation & Setup**
+🛠️**Installation & Setup**
 
 Prerequisites
 
@@ -89,7 +88,7 @@ streamlit run src/dashboard.py
 docker build -t resume-screening .
 docker run -p 8000:8000 resume-screening
 
-🔗 API Endpoints
+🔗**API Endpoints**
 
 Method
 
@@ -115,7 +114,7 @@ GET
 
 API health check
 
-🛠️ Future Enhancements
+🛠️ **Future Enhancements**
 
 Integration with ATS (Applicant Tracking Systems)
 
@@ -123,10 +122,10 @@ Advanced resume similarity scoring using BERT-based embeddings
 
 Real-time job recommendations based on candidate profiles
 
-🤝 Contributing
+🤝 **Contributing**
 
 Pull requests are welcome! Please open an issue first to discuss major changes.
 
-📜 License
+📜 **License**
 
 This project is licensed under the MIT License.
