@@ -4,6 +4,19 @@
 
 This project automates the resume screening process using Natural Language Processing (NLP) and Machine Learning (ML). The system extracts key information from resumes, ranks candidates based on job descriptions, and provides an AI-driven approach to hiring efficiency.
 
+📊 Current Project Progress
+
+✅ Phase 1: Data Preprocessing (Completed)
+      ✅ Step 1: Loaded Resume Dataset
+      ✅ Step 2:  Dropped Unnecessary Columns
+      ✅ Step 3: Handled Missing Data
+      ✅ Step 4:  Cleaned Resume Text (`Clean_Resume` column)
+⬜ Phase 2: Feature Extraction ()
+      ✅ Step 5: Tokenization & Stopword Removal (Completed)
+      ✅ Step 6: Skill Extraction (NER) (Completed)
+      ⬜ Step 7: Convert Text to Numerical Vectors (TF-IDF / BERT) (Next)
+      ⬜ Model Training & Resume Ranking (Upcoming)⬜ API & Deployment (Final Phase)
+
 🚀 **Features**
 
 Resume Parsing: Extracts structured information from PDF and DOCX resumes.
