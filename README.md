@@ -50,9 +50,7 @@ resume-screening/
 
 ├── notebooks/          # Jupyter notebooks for experimentation
 
-│   ├── data_processing.ipynb   # Data preprocessing notebook
-
-│   ├── feature_extraction.ipynb  # Tokenization & embeddings
+│   ├── data_processing.ipynb ✅ (Preprocessing, skill extraction & BERT embeddings)
 
 │   ├── model_training.ipynb   # ML model training
 
