@@ -13,7 +13,7 @@ import pandas as pd
 
 """**bold text**"""
 
-df = pd.read_csv('/content/drive/MyDrive/Project 1/Dataset/Resume dataset/Resume/Resume.csv')
+df = pd.read_csv('/content/*/Resume.csv')
 
 df.head()
 
