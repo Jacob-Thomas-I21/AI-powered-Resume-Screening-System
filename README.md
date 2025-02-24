@@ -22,7 +22,7 @@ This project automates the resume screening process using Natural Language Proce
 
  ✅ Step 6: Skill Extraction (NER)
  
- ⬜ Step 7: Convert Text to Numerical Vectors (TF-IDF / BERT) (Next)
+ ✅  Step 7: Convert Text to Numerical Vectors (TF-IDF / BERT) (Next)
  
  ⬜ Model Training & Resume Ranking (Upcoming)
  
