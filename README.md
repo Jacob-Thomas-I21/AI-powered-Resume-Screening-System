@@ -37,36 +37,52 @@ This project automates the resume screening process using Natural Language Proce
 
 ## 📂 Project Structure
 
-resume-screening/ 
+resume-screening/
+**├── data/                           # Processed resumes, job descriptions & embeddings**
 
-├── data/ # Sample resumes and job descriptions 
+│   ├── extracted_skills.csv        # Resume data with extracted skills
 
-├── models/ # Trained machine learning models
+│   ├── cleaned_job_descriptions.csv # Preprocessed job descriptions
 
-├── notebooks/ # Jupyter notebooks for experimentation
+│   ├── train_data.npz               # Processed train features & labels
 
-│ ├── data_processing.ipynb ✅ (Preprocessing, skill extraction & SBERT embeddings)
+│   ├── test_data.npz                # Processed test features & labels
 
-│ ├── model_training.ipynb # ML model training
+│   ├── job_embedding.npy            # SBERT embedding for job description
 
-│ ├── api_deployment.ipynb # Deployment notebook
+│   ├── job_skills.pkl                # Extracted skill set from job description
 
-├── src/ # Source code 
+**├── models/                         # Trained machine learning models**
 
-│ ├── preprocessing.py # Text preprocessing scripts
+│   ├── MLP_Model.keras              # Trained MLP model
 
-│ ├── model.py # ML model training & inference
+│   ├── XGBoost_Model.pkl            # Trained XGBoost model
 
-│ ├── api.py # FastAPI API 
+**├── notebooks/                      # Jupyter notebooks for experimentation**
 
-│ ├── dashboard.py # Streamlit front-end 
+│   ├── data_processing.ipynb        # Preprocessing, skill extraction & SBERT embeddings
 
-├── Dockerfile # Docker containerization
+│   ├── model_training.ipynb         # MLP + XGBoost training
 
-├── requirements.txt # Dependencies
+│   ├── api_deployment.ipynb         # Deployment testing (if any)
 
-├── README.md # Project documentation
+**├── src/                            # Source code**
 
+│   ├── data_preprocessing,_skill_extraction_&_sbert_embeddings.py   # Full preprocessing + embedding pipeline
+
+│   ├── resume_match_deployment.py   # Full training process (MLP + XGBoost)
+
+│   ├── predict_resume_match.py      # Single resume prediction script (after deployment)
+
+│   ├── update_job_description.py    # New job description updater (manual trigger for retraining)
+
+│   ├── api.py                       # (To be created for FastAPI deployment)
+
+├── Dockerfile                      # Docker containerization (optional, for future)
+
+├── requirements.txt                # Dependencies list
+
+├── README.md                       # Project documentation
 
 ---
 
